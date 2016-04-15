@@ -1,16 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.hyn.androidhyndemo.MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_mian"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/main_radio"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#fafafa"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_im"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/sel_rbt_im"
+                android:gravity="center_horizontal"
+                android:tag="radio_button5"
+                android:text="企信"
+                android:textColor="@color/text_color_click"
+                android:textSize="@dimen/base_text_small" />
+
+            <RadioButton
+                android:id="@+id/radio_im2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/sel_rbt_im"
+                android:gravity="center_horizontal"
+                android:tag="radio_button5"
+                android:text="企信"
+                android:textColor="@color/text_color_click"
+                android:textSize="@dimen/base_text_small" />
+
+            <RadioButton
+                android:id="@+id/radio_im3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/sel_rbt_im"
+                android:gravity="center_horizontal"
+                android:tag="radio_button5"
+                android:text="企信"
+                android:textColor="@color/text_color_click"
+                android:textSize="@dimen/base_text_small" />
+
+            <RadioButton
+                android:id="@+id/radio_im4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/sel_rbt_im"
+                android:gravity="center_horizontal"
+                android:tag="radio_button5"
+                android:text="企信"
+                android:textColor="@color/text_color_click"
+                android:textSize="@dimen/base_text_small" />
+
+        </RadioGroup>
+    </LinearLayout>
+</TabHost>

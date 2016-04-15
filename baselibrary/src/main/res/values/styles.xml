@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- 标题区域 -->
+    <!-- 左侧返回区域样式 -->
+    <style name="base_title_left_ll">
+        <item name="android:layout_width">68dp</item>
+        <item name="android:layout_height">@dimen/base_title_high</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!-- 左侧返回图片样式 10-18小，13-22大 目前11.5-20-->
+    <style name="base_title_left_iv">
+        <item name="android:layout_width">11.5dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:src">@drawable/base_sel_ic_title_arrow</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <!-- 右侧按钮样式 -->
+    <style name="base_title_right_tv">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">51dp</item>
+        <item name="android:textColor">@color/base_sel_white2half</item>
+        <item name="android:textSize">@dimen/base_text_menu</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+   <!-- 标题文字样式 -->
+    <style name="base_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/base_text_title</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!--输入框样式-->
+    <style name="base_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@color/base_text_black</item>
+        <item name="android:textColorHint">@color/base_text_grey_light</item>
+        <item name="android:textSize">@dimen/base_text_large</item>
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

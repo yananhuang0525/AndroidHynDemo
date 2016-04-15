@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!--常用字体颜色-->
+    <!-- 文字颜色黑 -->
+    <color name="base_text_black">#353535</color>
+    <!-- 文字颜色纯黑 -->
+    <color name="base_text_black_dark">#000000</color>
+    <!-- 文字颜色黑,透明度一半 -->
+    <color name="base_text_black_half">#88353535</color>
+    <!-- 文字颜色灰 -->
+    <color name="base_text_grey">#AAAAAA</color>
+    <!-- 文字颜色浅灰 -->
+    <color name="base_text_grey_light">#bbbbbb</color>
+    <!-- 文字颜色绿 -->
+    <color name="base_text_green">#45c01a</color>
+    <!-- 文字颜色红 -->
+    <color name="base_text_red">#ff5454</color>
+    <!-- 文字颜色链接蓝 -->
+    <color name="base_text_blue">#617FA5</color>
+    <!-- 文字颜色橘色 -->
+    <color name="base_text_orange">#efb935</color>
+    <!-- 文字颜色白 -->
+    <color name="base_text_white">#ffffff</color>
+    <!-- 文字颜色白，点击 -->
+    <color name="base_text_white_half">#88ffffff</color>
+
+
+    <!--常用背景色-->
+    <!-- 背景颜色，标题 -->
+    <color name="base_bg_title">#393a3f</color>
+    <!-- 背景颜色白 -->
+    <color name="base_bg_white">#ffffff</color>
+    <!-- 背景颜色灰 -->
+    <color name="base_bg_grey">#ebebeb</color>
+    <!-- 背景色，按钮灰色点击 -->
+    <color name="base_bg_btn_grey_click">#f9f9f9</color>
+    <!-- 背景色，按钮红色 -->
+    <color name="base_bg_btn_red">#ff5454</color>
+    <!-- 背景色，按钮红色点击 -->
+    <color name="base_bg_btn_red_click">#dc3838</color>
+
+    <!-- 分隔线 -->
+    <color name="base_divider">#ebebeb</color>
+    <!-- 透明 -->
+    <color name="base_transparent">#00000000</color>
+</resources>
