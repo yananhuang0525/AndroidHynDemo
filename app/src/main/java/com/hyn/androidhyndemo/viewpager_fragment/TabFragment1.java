@@ -30,14 +30,16 @@ public class TabFragment1 extends Fragment implements XListView.IXListViewListen
         initView(view);
         return view;
     }
-Handler handler = new Handler(){
-    @Override
-    public void handleMessage(Message msg) {
-        if (msg.what==0){
-            lv.stopRefresh();
+
+    Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            if (msg.what == 0) {
+                lv.stopRefresh();
+            }
         }
-    }
-};
+    };
+
     private void initView(View v) {
         list = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
@@ -57,16 +59,16 @@ Handler handler = new Handler(){
 //                lv.stopRefresh();
 //            }
 //        },2000);
-        handler.sendEmptyMessageDelayed(0,2000);
+        handler.sendEmptyMessageDelayed(0, 2000);//延时2秒停止加载
     }
 
     @Override
     public void onLoadMore() {
-        new Handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable() {//延时2秒停止加载
             @Override
             public void run() {
                 lv.stopLoadMore();
             }
-        },2000);
+        }, 2000);
     }
 }
