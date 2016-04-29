@@ -4,12 +4,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
 import com.hyn.androidhyndemo.tab.MainActivity;
-import com.hyn.androidhyndemo.viewpager_fragment.MainActivity1;
+import com.hyn.androidhyndemo.viewpager_fragment.avc.activity.MainActivity1;
 
 /**
  * Created by hyn on 2016/4/20.

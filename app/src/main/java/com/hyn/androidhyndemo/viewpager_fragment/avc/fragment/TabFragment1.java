@@ -1,4 +1,4 @@
-package com.hyn.androidhyndemo.viewpager_fragment;
+package com.hyn.androidhyndemo.viewpager_fragment.avc.fragment;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.hyn.androidhyndemo.R;
+import com.hyn.androidhyndemo.viewpager_fragment.avc.adapter.ListViewAdapter;
 import com.hyn.baselibrary.xlistview.XListView;
 
 import java.util.ArrayList;

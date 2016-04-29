@@ -1,4 +1,4 @@
-package com.hyn.androidhyndemo.viewpager_fragment;
+package com.hyn.androidhyndemo.viewpager_fragment.avc.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

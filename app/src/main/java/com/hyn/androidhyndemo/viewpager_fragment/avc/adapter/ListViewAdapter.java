@@ -1,4 +1,4 @@
-package com.hyn.androidhyndemo.viewpager_fragment;
+package com.hyn.androidhyndemo.viewpager_fragment.avc.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

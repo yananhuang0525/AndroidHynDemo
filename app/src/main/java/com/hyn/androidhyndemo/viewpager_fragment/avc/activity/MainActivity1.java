@@ -1,4 +1,4 @@
-package com.hyn.androidhyndemo.viewpager_fragment;
+package com.hyn.androidhyndemo.viewpager_fragment.avc.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,14 +6,16 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
-import android.util.TypedValue;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.hyn.androidhyndemo.R;
-import com.hyn.baselibrary.view.tabstrip.PagerSlidingTabStrip;
+import com.hyn.androidhyndemo.viewpager_fragment.avc.adapter.MyFragmentAdapter;
+import com.hyn.androidhyndemo.viewpager_fragment.avc.fragment.TabFragment1;
+import com.hyn.androidhyndemo.viewpager_fragment.avc.fragment.TabFragment2;
+import com.hyn.androidhyndemo.viewpager_fragment.avc.fragment.TabFragment3;
+import com.hyn.androidhyndemo.viewpager_fragment.avc.fragment.TabFragment4;
 
 import java.util.ArrayList;
 import java.util.List;
